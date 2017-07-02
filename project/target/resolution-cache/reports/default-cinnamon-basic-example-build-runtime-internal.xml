@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="cinnamon-basic-example-build"
+		revision="0.1-SNAPSHOT"
+		extra-scalaVersion="2.10"
+		extra-sbtVersion="0.13"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170702183445"/>
+	<dependencies>
+		<module organisation="com.lightbend.cinnamon" name="sbt-cinnamon">
+			<revision name="2.4.2" status="release" pubdate="20170620121228" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="0">
+				<license name="Lightbend Subscription Agreement" url="https://downloads.lightbend.com/website/legal/LightbendSubscriptionAgreement.pdf"/>
+				<metadata-artifact status="no" details="" size="1747" time="0" location="/home/sahil/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.cinnamon/sbt-cinnamon/ivy-2.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo.lightbend.com/commercial-releases/com.lightbend.cinnamon/sbt-cinnamon/scala_2.10/sbt_0.13/2.4.2/ivys/ivy.xml"/>
+				<caller organisation="default" name="cinnamon-basic-example-build" conf="compile, runtime-internal, runtime, optional" rev="2.4.2" rev-constraint-default="2.4.2" rev-constraint-dynamic="2.4.2" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="sbt-cinnamon" type="jar" ext="jar" status="no" details="" size="26875" time="0" location="/home/sahil/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.cinnamon/sbt-cinnamon/jars/sbt-cinnamon-2.4.2.jar">
+						<origin-location is-local="false" location="https://repo.lightbend.com/commercial-releases/com.lightbend.cinnamon/sbt-cinnamon/scala_2.10/sbt_0.13/2.4.2/jars/sbt-cinnamon.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lightbend.sbt" name="sbt-javaagent">
+			<revision name="0.1.3" status="release" pubdate="20170608120833" resolver="sbt-chain" artresolver="sbt-chain" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="1947" time="0" location="/home/sahil/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.sbt/sbt-javaagent/ivy-0.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.sbt/sbt-javaagent/scala_2.10/sbt_0.13/0.1.3/ivys/ivy.xml"/>
+				<caller organisation="com.lightbend.cinnamon" name="sbt-cinnamon" conf="compile" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="2.4.2" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="sbt-javaagent" type="jar" ext="jar" status="no" details="" size="64282" time="0" location="/home/sahil/.ivy2/cache/scala_2.10/sbt_0.13/com.lightbend.sbt/sbt-javaagent/jars/sbt-javaagent-0.1.3.jar">
+						<origin-location is-local="false" location="https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lightbend.sbt/sbt-javaagent/scala_2.10/sbt_0.13/0.1.3/jars/sbt-javaagent.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
