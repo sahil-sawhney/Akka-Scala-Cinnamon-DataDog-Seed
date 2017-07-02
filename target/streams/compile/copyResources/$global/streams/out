@@ -1,2 +1,2 @@
 [0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/home/sahil/tech examples/lightbend/telemetry/cinnamon-basic-example/src/main/resources/application.conf,/home/sahil/tech examples/lightbend/telemetry/cinnamon-basic-example/target/scala-2.12/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/home/sahil/tech examples/lightbend/telemetry/Akka-Scala-Cinnamon-DataDog-Seed/src/main/resources/application.conf,/home/sahil/tech examples/lightbend/telemetry/Akka-Scala-Cinnamon-DataDog-Seed/target/scala-2.12/classes/application.conf)[0m

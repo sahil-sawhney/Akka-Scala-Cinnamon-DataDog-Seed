@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, javaagent"
-		date="20170702183654"/>
+		date="20170702192717"/>
 	<dependencies>
 		<module organisation="com.lightbend.cinnamon" name="cinnamon-datadog_2.12">
 			<revision name="2.4.2" status="release" pubdate="20170620054950" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
