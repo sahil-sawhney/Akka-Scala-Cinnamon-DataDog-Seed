@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="javaagent"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, javaagent"
-		date="20170702192717"/>
+		date="20170703115209"/>
 	<dependencies>
 		<module organisation="com.lightbend.cinnamon" name="cinnamon-agent">
 			<revision name="2.4.2" status="release" pubdate="20170620055124" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">

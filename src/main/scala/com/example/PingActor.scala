@@ -7,7 +7,7 @@ class PingActor extends Actor with ActorLogging {
   
   var counter = 0
   val pongActor = context.actorOf(PongActor.props, "pongActor")
-  val counterIteration = 10000  //Increase or decrease its value to adjust load on the actors.
+  val counterIteration = 1000000000  //Increase or decrease its value to adjust load on the actors.
 
   def receive = {
   	case Initialize => 
